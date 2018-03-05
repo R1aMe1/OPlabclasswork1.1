@@ -1,52 +1,39 @@
-package lab2ophomework;
+package lab1opclasswork;
 
 import java.util.Scanner;
-
-public class A {
+//task 2 while and do-while
+public class click2 {
 public static void main(String[] args) {
 	// TODO Auto-generated method stub
-	System.out.print("Введите число: ");
+	System.out.println("Введите число: ");
 	Scanner sc = new Scanner(System.in);
 	int n = sc.nextInt();
-	int i = 0, stroki = 0, elements = 1;
-	System.out.println(n);
-	while (stroki < n-1) {
-
-			while (i <= elements) {
-				System.out.print(n - elements + i);
-				System.out.print(" ");
-				i++;
-			}
-			elements++;
-			i = 0;
-			System.out.print("\n");
-			stroki++;
-	}
-	sc.close();
-	}
+	System.out.println("Результат: ");
+	do
+	{
+		System.out.print(n);
+		System.out.print(" ");
+		n-=10;
+	}while (n > 9);
+	sc.close();		
+}
 }
 
 
 
-//public class A {
+//public class click2 {
 //public static void main(String[] args) {
 //	// TODO Auto-generated method stub
-//	System.out.print("Введите число: ");
+//	System.out.println("Введите число: ");
 //	Scanner sc = new Scanner(System.in);
 //	int n = sc.nextInt();
-//	int i = 0, stroki = 0, elements = 1;
-//	System.out.println(n);
-//	do{
-//			 do{
-//				System.out.print(n - elements + i);
-//				System.out.print(" ");
-//				i++;
-//			}while (i <= elements);
-//			elements++;
-//			i = 0;
-//			System.out.print("\n");
-//			stroki++;
-//	}while (stroki < n-1);
-//	sc.close();
+//	System.out.println("Результат: ");
+//	while (n > 9)
+//	{
+//		System.out.print(n);
+//		System.out.print(" ");
+//		n-=10;
 //	}
+//	sc.close();		
+//}
 //}
