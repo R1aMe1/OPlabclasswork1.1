@@ -1,0 +1,42 @@
+package lab1opclasswork;
+
+import java.util.Scanner;
+
+//public class click3 {
+//public static void main(String[] args) {
+//	// TODO Auto-generated method stub
+//	System.out.println("Введите число: ");
+//	Scanner sc = new Scanner(System.in);
+//	int t = sc.nextInt();
+//	int n = 1, i = 0;
+//	System.out.println("Результат: ");
+//	do
+//	{
+//		System.out.print(n);
+//		System.out.print(" ");
+//		n = n*2;
+//		i++;
+//	}while (i <= t);	
+//	sc.close();
+//}
+//}
+
+
+public class click3 {
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Введите число: ");
+		Scanner sc = new Scanner(System.in);
+		int t = sc.nextInt();
+		int n = 1, i = 0;
+		System.out.println("Результат: ");
+		while (i <= t)
+		{
+			System.out.print(n);
+			System.out.print(" ");
+			n = n*2;
+			i++;
+		}
+		sc.close();
+	}
+}
