@@ -1,0 +1,43 @@
+package lab1opclasswork;
+
+import java.util.Scanner;
+//task 1. while and do-while
+public class click {
+	public static void main(String[] args) {
+	// TODO Auto-generated method stub
+		System.out.println("Введите количество чисел: ");
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		int i = 1;
+		System.out.println("Результат: ");
+		do
+		{
+			System.out.print(i);
+			System.out.print(" ");
+			i++;
+		}while (i <= n);
+		sc.close();		
+}
+}
+
+
+
+
+//public class click {
+//	public static void main(String[] args) {
+//	// TODO Auto-generated method stub
+//		System.out.println("Введите количество чисел: ");
+//		Scanner sc = new Scanner(System.in);
+//		int n = sc.nextInt();
+//		int i = 1;
+//		System.out.println("Результат: ");
+//		
+//		while (i <= n)
+//		{
+//			System.out.print(i);
+//			System.out.print(" ");
+//			i++;
+//		}
+//		sc.close();		
+//}
+//}
